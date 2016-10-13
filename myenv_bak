@@ -1,0 +1,22 @@
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=SomeRandomString
+DB_HOST=localhost
+DB_DATABASE=lrbookmg
+DB_USERNAME=root
+DB_PASSWORD=root
+
+CACHE_DRIVER=redis
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
+
+MAIL_DRIVER=smtp
+MAIL_HOST=mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+
+BOOKMG_NAME = 'MyLR BookMg' //图书管理系统名称
+BOOKMG_NAME_INFO_TITLE = 'mai mai' 
+BOOKMG_NAME_INFO = '学无止境' 

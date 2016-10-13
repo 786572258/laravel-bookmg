@@ -1,0 +1,162 @@
+.markdown-body, *{
+      font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+.markdown-body{
+    font-size:20px;
+}
+.markdown-body pre code{
+    font-size:16px;
+}
+li {
+    list-style: none;
+}
+#sidebar h4.title {
+    font-weight:bold;
+    font-size:14px;
+}
+.home .site-header {
+    background: #ffffff;
+    color: #fff
+}
+
+
+.home .banner .collection-head {
+    padding: 4rem 0;
+    color: #fff;
+    background: 0 0;
+    box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.home .site-header {
+    border-bottom: none
+}
+
+.home .site-header h1 a {
+    color: #777
+}
+
+.home .site-header .site-header-nav-item {
+    color: #777
+}
+
+.home .site-header .site-header-nav-item:hover {
+    color: #f4645f
+}
+.banner{
+    background-image:  url('../../images/header.jpg');
+}
+
+
+a:hover{
+    /*color: #f4645f;*/
+    text-decoration: none;
+}
+
+.widget .tag-cloud a {
+    border: 1px solid #ebebeb;
+    padding: 2px 7px;
+    color: #959595;
+    line-height: 1.2em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.widget .tag-cloud a:hover {
+    color: #ffffff;
+    background: #428bca;
+    border: 1px solid #428bca;
+    text-decoration: none;
+}
+
+
+.widget  .tag-cloud .active{
+    color: #ffffff;
+    background: #428bca;
+    border: 1px solid #428bca;
+}
+
+.tag-cloud{
+    padding: 1px 10px;
+}
+
+.pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+    font-size: 14px;
+}
+
+.pager li {
+    display: inline;
+}
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.pager .previous>a, .pager .previous>span {
+    float: left;
+}
+
+
+.demo_search {
+  display: inline-block;
+  padding: 9px 10px 15px;
+  margin-left: 1.25rem;
+  height: 27px;
+}
+
+
+
+
+.demo_search i {
+
+    margin-top:5px;
+    color:#9d9d9d;font-size:18px; display: block;
+}
+.demo_search .demo_sinput {
+    display: none; width: 300px; opacity: 0.1;
+}
+
+
+
+
+
+.icon_search{
+	background:url(../../images/search.png) no-repeat 1% 50%;
+	width:28px;
+	height:29px;
+	display:block;
+	cursor:pointer;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+#author img {
+    width: 80px;
+    height: 80px;
+    top: 2em;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-overflow{
+    display:block;                     /*内联对象需加*/
+    /*width:100%;*/
+    word-break:keep-all;           /* 不换行 */
+    white-space:nowrap;          /* 不换行 */
+    overflow:hidden;               /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;         /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}

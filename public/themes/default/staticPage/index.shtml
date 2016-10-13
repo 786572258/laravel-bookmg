@@ -1,0 +1,173 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>MyLR BookMg</title>
+    <meta name="keywords" content="seo 关键字" />
+    <meta name="description" content="seo 描述">
+        <link rel="icon" href="../../favicon.ico">
+        <!-- Bootstrap core CSS -->
+        <link href="http://laravelbookmg.com/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="http://laravelbookmg.com/themes/default/css/components/offcanvas.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://laravelbookmg.com/themes/default/css/pages/index.css?a=a">
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]>
+            <script src="//v3.bootcss.com/assets/js/ie8-responsive-file-warning.js"></script>
+        <![endif]-->
+        <script src="http://laravelbookmg.com/themes/default/js/ie-emulation-modes-warning.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://laravelbookmg.com">MyLR BookMg</a></div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="/">Home</a></li>                         <li>
+                            <a href="http://www.baidu.com">百度</a></li>                        <li>
+                            <a href="http://www.github.com">github</a></li>                         <li>
+                            <form class="demo_search" action="http://laravelbookmg.com/search/keyword" method="get">
+                                <i class="glyphicon glyphicon-search" id="open"></i>
+                                <input class="demo_sinput form-control " type="text" name="keyword" id="search_input" placeholder="输入关键字 回车搜索">
+                            </form>
+                        </li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+        <div class="container">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-xs-12 col-sm-9">
+      <p class="pull-right visible-xs">
+        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+      </p>
+      <div class="jumbotron">
+        <h1>欢迎使用图书管理系统</h1>
+        <p>使用过程遇到问题可加入群：459735113讨论</p>
+      </div>
+      <div class="row">
+                <div class=" col-xs-6 col-lg-4">
+          <div  class="thumbnail col-xs-12">
+            <div class="col-xs-12">
+              <h2 class="text-overflow">PHP编程（第3版）</h2>
+              <h4 class="text-overflow">作者：Kevin Tatr...</h4>
+              <p class=""> 
+                <img class="" width="130" height="130"  src="http://laravelbookmg.com/uploads/4c0b4a3e1cc63ee2af8a41798dc4f6d8.jpg" alt="" />
+              </p>
+              <p><a class="btn btn-default" href="http://laravelbookmg.com/book/2" role="button">详情 »</a></p>
+            </div>
+          </div>
+        </div><!--/.col-xs-6.col-lg-4-->
+                <div class=" col-xs-6 col-lg-4">
+          <div  class="thumbnail col-xs-12">
+            <div class="col-xs-12">
+              <h2 class="text-overflow">管理系统说明</h2>
+              <h4 class="text-overflow">作者：maimai</h4>
+              <p class=""> 
+                <img class="" width="130" height="130"  src="http://laravelbookmg.com/uploads/893f697ce2acecb1697e6a44ea81d28e.jpg" alt="" />
+              </p>
+              <p><a class="btn btn-default" href="http://laravelbookmg.com/book/1" role="button">详情 »</a></p>
+            </div>
+          </div>
+        </div><!--/.col-xs-6.col-lg-4-->
+              </div><!--/row-->
+    </div><!--/.col-xs-12.col-sm-9-->
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+  <div class="list-group">
+          <a href="http://laravelbookmg.com/search/cate/1" class="list-group-item ">计算机编程类</a>
+          <a href="http://laravelbookmg.com/search/cate/2" class="list-group-item ">生活百科</a>
+      </div>
+
+  <div class="widget">
+      <h4 class="title">标签云</h4>
+      <div class="content tag-cloud">
+                      <a href="http://laravelbookmg.com/search/tag/1" class="" title="php">php</a>
+                      <a href="http://laravelbookmg.com/search/tag/2" class="" title="mysql">mysql</a>
+                </div>
+  </div>
+  
+  <section class="repo-card">
+  <h4 class="title">友情链接</h4>
+    <ul class="boxed-group-inner mini-repo-list">
+                              <li class="public source ">
+                  <a href="http://www.baidu.com" target="_blank"  class="mini-repo-list-item css-truncate">
+                      <span class="repo-and-owner css-truncate-target">
+                          百度
+                      </span>
+                  </a>
+              </li>
+                        <li class="public source ">
+                  <a href="http://www.csdn.com" target="_blank"  class="mini-repo-list-item css-truncate">
+                      <span class="repo-and-owner css-truncate-target">
+                          CSDN
+                      </span>
+                  </a>
+              </li>
+                    </ul>
+  </section>
+
+</div><!--/.sidebar-offcanvas-->
+  </div><!--/row-->
+
+  <div class="pagination text-align">
+      <nav>
+         
+      </nav>
+  </div><!-- /pagination -->
+</div><!--/.container-->
+
+        <div class="container">
+            <footer>
+              <p>© maimai 2016</p>
+            </footer>
+        </div>
+        
+        <!-- Bootstrap core JavaScript================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://laravelbookmg.com/themes/default/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="http://laravelbookmg.com/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://laravelbookmg.com/themes/default/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="http://laravelbookmg.com/themes/default/js/offcanvas.js"></script>
+        <script>
+            jQuery(document).ready(function($) {
+                // geopattern
+                $('.geopattern').each(function() {
+                    $(this).geopattern($(this).data('pattern-id'));
+                });
+
+                $("#open").mouseover(function() {
+                    $("#search_input").fadeIn(1).animate({
+                        width: '300px',
+                        opacity: '10'
+                    });
+                    $("#search_input")[0].focus();
+                    $("#open").fadeOut(10);
+                });
+
+                $("#search_input").blur(function() {
+                    $("#search_input").animate({
+                        width: 'toggle',
+                        opacity: '0.1'
+                    }).fadeOut(2);
+                    $("#open").delay(400).fadeIn(100);
+                });
+                //$('.share-bar').share();
+            });
+        </script>
+    </body>
+</html>
